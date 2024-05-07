@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About | Koji Ichikawa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">        <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/templatemo-upright.css">
+
+    <style>
+        .tm-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .position-fixed {
+            position: relative;
+            top: 20px;
+            right: 20px;
+        }
+        .stylist-info {
+            font-family: 'Kumbh Sans', sans-serif;
+            font-size: 60px !important; 
+            text-align: center;
+        }
+        .stylist-info p {
+            margin-bottom: 50px; 
+        }
+        .tm-text-container p {
+            font-size: 24px; 
+        }
+        body {
+            background-color: #000000; 
+        }
+        #tm-sidebar {
+            background-color: #000000; 
+        }
+        .tm-btn-get-in-touch {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 2px solid #ffffff;
+            border-radius: 20px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .tm-btn-get-in-touch:hover {
+            background-color: #ffffff;
+            color: #333333;
+        }
+        
+        .center-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px; 
+        }
+        .tm-contact-col-l {
+            max-width: 100%; 
+        }
+        
+        .form-control {
+            height: 70px; 
+            font-size: 18px; 
+        }
+        textarea.form-control {
+            height: 150px; 
+        }
+</style>
+
+
+</head>
+
+<body>    
+    <div class="container-fluid">
+      <div>
+        <p style="font-weight: bold; color: #ffffff; font-size: 40px; text-align: right;">
+            Contact
+        </p>
+        <hr>
+      </div>
+        <div class="row">
+
+            <!-- Leftside bar -->
+            <div id="tm-sidebar" class="tm-sidebar"> 
+                <nav class="tm-nav">
+                    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <div class="tm-brand-box">
+                            <img src="img/koji.png" alt="Koji Logo" class="tm-logo" style="width: 150px; height: auto; display: block;">
+                        </div>
+                                      
+                        <ul id="tm-main-nav">
+                            <li class="nav-item">                                
+                                <a href="landing.html" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="gallery.html" class="nav-link">
+                                    <div class="triangle-right"></div>
+                                    Gallery
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link current">
+                                    <div class="triangle-right"></div>
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link current>
+                                    <div class="triangle-right"></div>
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            <div class="tm-main">
+                
+
+<!-- Contact section -->
+<div class="tm-section-wrap">
+    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/contact.jpg"></div> 
+    <div id="contact" class="tm-section">
+        <hr class="mb-5">
+        <div class="row justify-content-center"> 
+            <div class="col-xl-4 tm-contact-col-l mb-6">
+                <form id="contact-form" action="" method="POST" class="tm-contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" class="form-control rounded-0" placeholder="Contact Number" required />
+                    </div> <!-- New form group for contact number -->
+                    <div class="form-group">
+                        <select class="form-control" id="contact-select" name="inquiry">
+                            <option value="-">Editorial</option>
+                            <option value="sales">Advertising</option>
+                            <option value="creative">Runway Show</option>
+                            <option value="uiux">Wig Styling</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Message" required=></textarea>
+                    </div>
+
+                    <div class="form-group tm-text-right">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xl-6 tm-contact-col-r">
+                <!-- Map -->
+                <div class="mapouter mb-4">
+                    <div class="gmap_canvas">
+                        <iframe width="100%" height="520" id="gmap_canvas"
+                        src="https://www.google.com/maps?q=1430+Broadway+Suite+601+New+York+NY+10018&z=13&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <address class="mb-4">
+                    1430 Broadway, Suite 601<br>
+                    New York, NY 10018<br>
+                    Office: 212.315.5505
+                </address>
+
+                <!-- Links -->
+                <ul class="tm-contact-links mb-4">
+                    <li class="mb-2">
+                        <a href="tel:+12123155505">
+                            <i class="fas fa-phone mr-2 tm-contact-link-icon"></i>
+                            Tel: +1(212) 315-5505
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@distinctartists.com">
+                            <i class="fas fa-at mr-2 tm-contact-link-icon"></i>
+                            Email: fran@distinctartists.com
+                        </a>
+                    </li>
+                </ul>
+                
+                <ul class="tm-contact-social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100065011684114" class="tm-social-link"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/KojiIchikawa1" class="tm-social-link"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/hair_by_koji_ichikawa" class="tm-social-link"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCnt_uRSPua8c3-KGZQn06Og" class="tm-social-link"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- info section -->
+<section class="info_section layout_padding2">
+    <div class="container">
+    
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-3">
+          
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_insta">
+            <h4>
+              Follow us on instagram!
+            </h4>
+            <div class="insta_box">
+              <div class="img-box">
+                <a href="https://www.instagram.com/koji_ichikawa/">
+                    <img src="img/icon.png" alt="butwana" style="width: 50px; height: 50px;">
+                </a>
+              </div>
+              <p>
+                koji_ichikawa
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              About Us
+            </h4>
+            <p class="mb-0">
+                We provide editorial, advertising, men's grooming, and 
+                session styling services, with a portfolio featured in 
+                top fashion publications like VOGUE and ELLE.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="https://www.distinctartists.com">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                New York <br>
+                Distinct Artists <br>
+                +1(212) 315-5505
+              </span>
+            </a>
+            <br>
+            <a href="www.office-sept.com">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Japan <br>
+                Sept.inc <br>
+                TEL: +81(0)3-5464-090
+              </span>
+            </a>
+            
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end info_section -->
+
+<script src="js/jquery-3.4.1.min.js"></script>          <!-- https://jquery.com/ -->
+<script src="js/jquery.singlePageNav.min.js"></script>  <!-- https://github.com/ChrisWojcik/single-page-nav -->
+<script src="js/parallax/parallax.min.js"></script>     <!-- https://pixelcog.github.io/parallax.js/ -->
+<script src="js/imagesloaded.pkgd.min.js"></script>     <!-- https://imagesloaded.desandro.com/ -->
+<script src="js/isotope.pkgd.min.js"></script>          <!-- https://isotope.metafizzy.co/ -->
+<script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+<script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
+<script src="js/templatemo-script.js"></script>
+
+</body>
+</html>
